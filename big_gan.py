@@ -164,7 +164,8 @@ mammal_subcategories = {
 }
 
 # Streamlit app title
-st.title("Animal Image Generator")
+st.title("AnimalGen")
+st.subheader("A Generative AI Project to generate images of the animals")
 
 # Choose between Birds and Mammals
 animal_type = st.selectbox("Choose Animal Type:", ["Birds", "Mammals"])
@@ -185,7 +186,8 @@ selected_animal = st.radio("Select an Animal:", [animal[0] for animal in animals
 selected_category_number = [animal[1] for animal in animals if animal[0] == selected_animal][0]
 
 
-st.markdown(selected_category_number)
+
+
 
 
 initializer = tf.compat.v1.global_variables_initializer()
@@ -195,19 +197,16 @@ sess.run(initializer)
 
 # In[6]:
 
+if st.button("Generate Image", key="generate_image_button"):
+ num_samples = 10
+ truncation = 0.4
+ noise_seed = 0
+ category = str(selected_category_number)
 
-num_samples = 10
-truncation = 0.4
-noise_seed = 0
-category = str(selected_category_number)
+ z = truncated_z_sample(num_samples, truncation, noise_seed)
+ y = int(category.split(')')[0])
 
-z = truncated_z_sample(num_samples, truncation, noise_seed)
-y = int(category.split(')')[0])
+ ims = sample(sess, z, y, truncation=truncation)
 
-ims = sample(sess, z, y, truncation=truncation)
-
-for i, img in enumerate(ims):
+ for i, img in enumerate(ims):
         st.image(img, caption=f"Generated Image {i}", use_column_width=True); break
-
-#imshow(imgrid(ims, cols=min(num_samples, 5)))
-

@@ -1,3 +1,8 @@
+
+
+
+
+
 # AnimalGen: Animal Image Generator
 
 
@@ -14,15 +19,15 @@ AnimalGen is an innovative application that uses the power of Generative AI to c
 ## Getting Started
 
 ### 1. This is the homepage of the website 
-![pg1ani](https://github.com/nshakhapur/Image_Generator/assets/96770503/a08afd07-af35-4a86-b861-89eb73ea0d1a)
+![pg1ani](https://github.com/nshakhapur/Computational_Intelligence_Image_Generator/assets/96770503/2bbedb2e-98f0-4fa9-b16d-a5d0c1464a49)
 ### 2. Click on the animal type to choose between Mammals or Birds 
-![pg2ani](https://github.com/nshakhapur/Image_Generator/assets/96770503/ca75868e-29c7-49c1-a3c6-e4722e385ebf)
+![pg2ani](https://github.com/nshakhapur/Computational_Intelligence_Image_Generator/assets/96770503/233cdbdd-9ece-45e3-a42b-96bf21ffd665)
 ### 3. Choose subcategory of the animals
-![pg3ani](https://github.com/nshakhapur/Image_Generator/assets/96770503/afee4c94-d352-450d-8881-0dcb4972853b)
+![pg3ani](https://github.com/nshakhapur/Computational_Intelligence_Image_Generator/assets/96770503/8e97ddd4-cd43-49e5-90fe-81b0de5fac54)
 ### 4. Choose the animal you want to generate image of.
-![pg4ani](https://github.com/nshakhapur/Image_Generator/assets/96770503/d17f1f82-0cb7-430c-8765-10e5ece1e9dd)
+![pg4ani](https://github.com/nshakhapur/Computational_Intelligence_Image_Generator/assets/96770503/2c1a67df-8858-4f55-baa5-4ef9b2de2731)
 ### 5. Click "Generate Image" button to generate the image
-![pg5ani](https://github.com/nshakhapur/Image_Generator/assets/96770503/e7189008-3d75-433f-94a8-cab2a4c9f1d2)
+![pg5ani](https://github.com/nshakhapur/Computational_Intelligence_Image_Generator/assets/96770503/e45260aa-18c4-4131-85f6-2e74d6de9163)
 
 
 ### Prerequisites

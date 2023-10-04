@@ -1,4 +1,3 @@
-Pillow==9.2.0
 scipy== 1.11.1
 tensorflow
 ipython==7.34.0
